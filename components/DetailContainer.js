@@ -10,7 +10,10 @@ const DetailContainer = ({ source, label, description }) => {
       </View>
       <View>
         <Text style={customStyles.detailText}> {label}</Text>
-        <Text style={customStyles.yearTextLarge}>{description}</Text>
+
+        <Text style={[customStyles.yearTextLarge, { flexWrap: "wrap" }]}>
+          {description}
+        </Text>
       </View>
     </View>
   );

@@ -170,6 +170,8 @@ export const customStyles = {
     paddingVertical: 5,
     borderRadius: 28,
     minWidth: 180,
+    maxWidth: 180,
+
     marginTop: 16,
   },
   detailText: {
@@ -186,5 +188,8 @@ export const customStyles = {
   list: {
     paddingTop: 24,
     paddingBottom: 48,
+  },
+  wrap: {
+    flexWrap: "wrap",
   },
 };
