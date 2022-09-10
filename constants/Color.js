@@ -1,3 +1,5 @@
+import { Dimensions } from "react-native";
+
 export const Colors = {
   lightTeal: "#CFFBFA",
   teal: "#4ac1bd",
@@ -46,7 +48,7 @@ export const customStyles = {
   image: {
     width: "100%",
     height: "100%",
-    resizeMode: "cover",
+    resizeMode: "stretch",
   },
   titleText: {
     fontSize: 16,
